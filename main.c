@@ -8,7 +8,6 @@ int main(void)
     int satellites;     // Целое количество спутников
     float radius;       // Радиус в километрах
     double mass;        // Масса в килограммах
-    int number;         // Число для второй задачи
 
     // Задача 1: ввод и вывод сведений о планете
     puts("Task 1. Planet information");
@@ -32,15 +31,6 @@ int main(void)
     printf("Satellites: %d\n", satellites);
     printf("Radius: %.2f km\n", radius);
     printf("Mass: %e kg\n", mass);
-
-    // Задача 2: одно число в трех формах
-    puts("\nTask 2. Number formats");
-    printf("\nEnter an integer: ");
-    scanf("%d", &number);
-
-    printf("Character: %c\n", number);
-    printf("Integer: %d\n", number);
-    printf("Exponential: %e\n", (double)number);
 
     return 0;
 }
